@@ -18,7 +18,7 @@ COPY .env .
 # Upgrade the google-generativeai and google-auth libraries to the latest version
 RUN pip install --no-cache-dir --upgrade google-generativeai google-auth
 
-# Expose the port that the Streamlit app runs on
+# Expose the port that the Streamlit app runs 
 EXPOSE 8501
 
 # Set the command to run the Streamlit app
