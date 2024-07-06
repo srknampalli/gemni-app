@@ -33,3 +33,5 @@ if submit:
         response = get_gemini_response(input, None)
         st.subheader("The Response is")
         st.write(response)
+
+#END
